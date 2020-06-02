@@ -5,7 +5,7 @@ locale: en_US
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: Jack Olcott
+  name: Jack Olcott 
   bio: "Student Researcher at Bowdoin College"
   email: jolcott@bowdoin.edu
   # Do not include the @ symbol in your Twitter username
