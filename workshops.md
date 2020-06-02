@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Workshops
-excerpt: "Recent Workshops"
+title: Data Resources
+excerpt: "Resources used for Data collection and Coding"
 ---
 
-# Workshops I've Put Together
+# Data Resources
 
-- [GitHub Pages Workshop](https://github.com/BioData-Club/githubPagesTutorial)
+- [Geocoding with R](https://www.jessesadler.com/post/geocoding-with-r/)
