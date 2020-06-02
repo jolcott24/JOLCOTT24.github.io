@@ -1,4 +1,6 @@
 ---
 layout: post-index
-title: All Blog Posts
+title: Timeline
 ---
+
+# Timeline of Significant Political Events
