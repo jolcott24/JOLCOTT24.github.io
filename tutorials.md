@@ -47,5 +47,20 @@ write.csv(locations_lat_lon, "locations_updated.csv")
 
 ```
 
+Now, hopefully you have been able to store your new file to your computer with columns for city names, latitude, and longitude. If you see your new "locations_updated.csv" file on your computer, and it has correct latitude and longitude points for each location name, lets now download this data into R. 
+
+```
+data <- read.csv("locations_updated.csv")
+```
+
+From here, we can employ a variety of techniques to plot a base map for our spatial data. In the case of my data, I want to plot a blank map of Maine, which I can do with the `map()` function from the `maps` package. Next, I can plot the location of each town in the data set using the `points()` function and by accessing the `lat` and `lon` columsn of the "locations_updated.csv." 
+
+```
+map("state", "Maine")
+points(all$lat ~ all$lon)
+```
+
+Running this code should produce the following visual in R studio. ![Towns in Maine](maine_towns.jpg
+
 
 
