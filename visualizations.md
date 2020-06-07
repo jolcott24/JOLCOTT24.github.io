@@ -1,5 +1,5 @@
 ---
-layout: presentation-post-index
+layout: page
 title: Visualizations
 excerpt: "Data Visualizations"
 ---
