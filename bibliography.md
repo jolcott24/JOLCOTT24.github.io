@@ -3,7 +3,6 @@ layout: page
 title: Bibliography
 excerpt: "Bibliography"
 ---
-# Citations
 
 + Woodard, Colin. The Lobster Coast: Rebels, Rusticators, and the Struggle for a Forgotten Frontier. Penguin Books, 2005.
 + Palmer, Kenneth T. Maine Politics and Government. Univ. of Nebraska Press, 2009.
