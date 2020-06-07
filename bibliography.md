@@ -1,5 +1,7 @@
 ---
-layout: Bibliography
+layout: presentation-post-index
+title: Bibliography
+excerpt: "Bibliography"
 ---
 # Citations
 
