@@ -1,5 +1,5 @@
 ---
-layout: presentation-post-index
+layout: page
 title: Bibliography
 excerpt: "Bibliography"
 ---
