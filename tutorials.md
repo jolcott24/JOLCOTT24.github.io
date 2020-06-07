@@ -4,9 +4,9 @@ title: Tutorials
 excerpt: "Tutorials"
 ---
 
-### Creating Spatial Visualizations with R classic (with a few helpful packages)
+### Turning Location Names into Spatial Maps using R Classic (with a few helpful packages)
 
-In this tutorial, I will demonstrate how to create a spatial plot in R using the built-in plot() function. My example will be centered around creating a map of voting proportions by town in the state of Maine, but the code used is applicable to a wide variety of spatial data sets. 
+In this tutorial, I will demonstrate how to create a spatial plot in R. My example will be centered around creating a map of voting proportions by town in the state of Maine, but the code used is applicable to a wide variety of spatial data sets. 
 
 #### Getting your data
 The first important step is to create a dataset that has Latitude and Longitudinal values. These values are necessary because they tell the plot() function where to put spatial data points. For my data set, I have a list of town names in Maine and corresponding voting data. The original dataset I have can be accessed at the following [link.](/2013_referendum_question_1.csv) It is easiest to work with .csv files if possible.
@@ -22,6 +22,8 @@ install.packages("ggmaps")
 library(maps)
 library(ggmaps)
 ```
+
+#### Using Google Maps API Key
 The next step is the most difficult task in creating spatial maps. There are many ways to access spatial data sets that have longitude and latitude, but one of the most streamlined ways to do this is to use google maps to create these data for you based on town/city/state/country names. To use google maps to turn my town data into spatial data, I will need to create an API Key and register my account in RStudio. To get the API key, follow the instructions at [the google maps API documentation page.](https://developers.google.com/maps/documentation/embed/get-api-key) Once you have registered for an account and gotten your API Key, all you need to do is write the following code, inserting your API Key within the parentheses. 
 
 ```
@@ -30,6 +32,7 @@ register_google(your_API_key)
 
 What's also important to note is that you have a daily limit of 2500 location queries per day, meaning I can only look up 2500 town names each day. If you wan't unlimited query access you will have to apply for a developer account with google. 
 
+#### Updating your Data Set with Lon and Lat
 Once you have registered your google account in RStudio, you can begin the process of converting your location names into Latitude and Longitude. The function you will need is `mutate_geocode`. Mutate geocode uses google maps to turn location names (ex: ABBOT Maine) into a specific spatial data point. Mutate geocode requires a dataset and a column to access. In the case of my data set, I will be using the "City" column. 
 
 ```
@@ -53,6 +56,7 @@ Now, hopefully you have been able to store your new file to your computer with c
 data <- read.csv("locations_updated.csv")
 ```
 
+#### Create a Map
 From here, we can employ a variety of techniques to plot a base map for our spatial data. In the case of my data, I want to plot a blank map of Maine, which I can do with the `map()` function from the `maps` package. Next, I can plot the location of each town in the data set using the `points()` function and by accessing the `lat` and `lon` columsn of the "locations_updated.csv." 
 
 ```
@@ -61,6 +65,8 @@ points(all$lat ~ all$lon)
 ```
 
 Running this code should produce the following visual in R studio. ![Towns in Maine](maine_towns.jpeg)
+
+Now that I have successfully mapped the locations for each town name, the next step is to represent the proportion of yes votes per town with color. 
 
 
 
