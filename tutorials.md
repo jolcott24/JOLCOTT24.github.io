@@ -60,7 +60,7 @@ map("state", "Maine")
 points(all$lat ~ all$lon)
 ```
 
-Running this code should produce the following visual in R studio. ![Towns in Maine](maine_towns.jpg
+Running this code should produce the following visual in R studio. ![Towns in Maine](maine_towns.jpeg)
 
 
 
