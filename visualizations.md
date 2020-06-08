@@ -11,5 +11,3 @@ excerpt: "Data Visualizations"
 
 ## with R classic
 ![](2013_map_R_classic.png)
-
-![](interactivetry)
