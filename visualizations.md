@@ -6,4 +6,4 @@ excerpt: "Data Visualizations"
 
 # 2013 Referendum Proportion of Blank Votes
 
-![](interactive.png)
+![]pretty close.png)
