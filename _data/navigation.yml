@@ -21,6 +21,10 @@
   url: /tutorials/
    
 - title: Attempt
-  url: /attempt/
+  sublinks:
+      - title: By Tag
+        url: /tags/
+      - title: By Category
+        url: /categories/
 
 
