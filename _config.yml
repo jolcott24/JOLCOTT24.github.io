@@ -26,6 +26,8 @@ creative-commons:
 
 permalink:   /:categories/:title/
 markdown:    kramdown
+kramdown:
+  parse_block_html: true
 highlighter: rouge
 sass:
   sass_dir: _sass
