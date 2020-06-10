@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tutorials
-excerpt: "Tutorials"
+title: Test
+excerpt: "Test"
 ---
 
 <details>
