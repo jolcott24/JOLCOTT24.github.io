@@ -4,7 +4,7 @@ title: Tutorials
 excerpt: "Tutorials"
 ---
 <details>
-<summary> Turning Location Names into Spatial Maps using R classic </summary>
+  <summary> Turning Location Names into Spatial Maps using R classic </summary>
 
 ### Turning Location Names into Spatial Maps using R Classic (with a few helpful packages)
 
@@ -76,3 +76,4 @@ This tutorial is based on a similar tutorial created by Jesse Sadler on Geocodin
 + Sadler, Jesse. “Geocoding with R.” Jesse Sadler Blog, 13 Oct. 2017, www.jessesadler.com/post/geocoding-with-r/.
 
 </details>
+
