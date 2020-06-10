@@ -1,3 +1,6 @@
+markdown: kramdown
+kramdown:
+  parse_block_html: true  
 ---
 layout: page
 title: Tutorials
