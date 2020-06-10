@@ -5,7 +5,6 @@ excerpt: "Tutorials"
 ---
 <details>
 <summary> Turning Location Names into Spatial Maps using R classic</summary>
-<br>
 
 ### Turning Location Names into Spatial Maps using R Classic (with a few helpful packages)
 
