@@ -1,31 +1,23 @@
 # Site navigation links
-main:
-  - title: Home
-    url: /
+- title: Home
+  url: /
 
-  - title: Visualizations
-    url: /visualizations/
+- title: Visualizations
+  url: /visualizations/
 
-  - title: Raw Data
-    url: /rawdata/
+- title: Raw Data
+  url: /rawdata/
 
-  - title: Timeline
-    url: /timeline/
+- title: Timeline
+  url: /timeline/
 
-  - title: Data Resources
-    url: /dataresources/
+- title: Data Resources
+  url: /dataresources/
 
-  - title: Bibliography
-    url: /bibliography/
+- title: Bibliography
+  url: /bibliography/
 
-  - title: Tutorials
-    url: /tutorials/
-
-  - title: Attempt
-    sublinks:
-      - title: By Tag
-        url: /tags/
-      - title: By Category
-        url: /categories/
+- title: Tutorials
+  url: /tutorials/
 
 
