@@ -22,9 +22,9 @@
    
 - title: Attempt
   sublinks:
-      - title: By Tag
-        url: /tags/
-      - title: By Category
-        url: /categories/
+    - title: By Tag
+      url: /tags/
+    - title: By Category
+      url: /categories/
 
 
