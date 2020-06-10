@@ -5,7 +5,7 @@ excerpt: "hope"
 ---
 
 <details>
-  <summary>Geo Convert</summary>
+  <summary> Geo Convert </summary>
   
   ### Turning Location Names into Spatial Maps using R Classic (with a few helpful packages)
 
